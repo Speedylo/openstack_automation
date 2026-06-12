@@ -1,5 +1,5 @@
 resource "openstack_compute_instance_v2" "webserver" {
-  name            = "webserver"
+  name            = "webserver1"
   image_id        = "c3c0e181-8fe1-4197-b23e-1ccbd22604a3"
   flavor_name     = "ds2G"
   key_pair        = "openstack_terraform"
